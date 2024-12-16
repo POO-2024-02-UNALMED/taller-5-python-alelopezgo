@@ -29,9 +29,9 @@ class Animal:
         return "desplazarse";
     def toString(self):
         if self._zona is None:
-            return (f"mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}")
+            return (f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}")
         else:
-            return (f"mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}, la zona en la que me ubico es {self._zona.get_nombre()}, en el {self._zona.get_zoo().get_nombre()}")
+            return (f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, habito en {self._habitat} y mi genero es {self._genero}, la zona en la que me ubico es {self._zona.get_nombre()}, en el {self._zona.get_zoo().get_nombre()}")
     
     @classmethod
     def getTotalAnimales(cls):
